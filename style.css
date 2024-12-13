@@ -35,8 +35,9 @@ body {
 }
 
 .hero h1 {
-  font-family: "Poppins", cursive;
-  font-size: 5rem;
+  font-family: cursive;
+  font-style: italic;
+  font-size: 3rem;
   color: var(--text);
 }
 
@@ -62,7 +63,7 @@ body {
 
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
-  font-family: "PoppinsS", cursive;
+  font-family: "Poppinss", cursive;
   font-size: 3.2rem;
   font-weight: bold;
 }
@@ -81,7 +82,7 @@ body {
 
 .home h2 {
   color: var(--bg);
-  font-family: "Poppins", cursive;
+  font-family: cursive;
   font-size: 5rem;
   font-weight: bold;
 }
@@ -102,7 +103,7 @@ body {
 }
 
 .home .couple h3 {
-  font-family: "poppins", cursive;
+  font-family: cursive;
   font-size: 2.4rem;
   color: var(--bg);
 }
