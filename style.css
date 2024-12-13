@@ -23,6 +23,7 @@ body {
   background-size: cover;
   background-position: center;
   z-index: -1;
+  filter: blur(1.5px);
 }
 
 .hero {
@@ -96,7 +97,6 @@ body {
 
 .home p {
   font-size: 1.1rem;
-  text-align: justify;
   color: #666;
 }
 
