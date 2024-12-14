@@ -58,7 +58,7 @@ body {
 }
 
 .mynavbar .offcanvas {
-  height: 100vh;
+  height: 50vh;
 }
 
 .mynavbar .navbar-brand,
@@ -159,7 +159,7 @@ body {
 
   .mynavbar .nav-link {
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
   }
 
   .sticky-top {
