@@ -160,7 +160,7 @@ body {
 
   .mynavbar .nav-link {
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
   }
 
   .sticky-top {
@@ -173,5 +173,10 @@ body {
   html {
     font-size: 60%;
     font-family: "poppins", sans-serif;
+  }
+
+  .mynavbar .offcanvas {
+    width: 50rem;
+    height: 100vh;
   }
 }
