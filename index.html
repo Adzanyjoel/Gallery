@@ -151,6 +151,7 @@
     <script>
       const stickyTop = document.querySelector(".sticky-top");
       const offcanvas = document.querySelector(".offcanvas");
+      const hamburger = document.querySelector(".navbar-toggler");
 
       offcanvas.addEventListener("show.bs.offcanvas", function () {
         stickyTop.style.overflow = "visible";
@@ -158,6 +159,12 @@
 
       offcanvas.addEventListener("hidden.bs.offcanvas", function () {
         stickyTop.style.overflow = "hidden";
+      });
+
+      hamburger.addEventListener("click", function (e) {
+        if (!hamburger.contains(e.target) && !offcanvas.contains(e.target)) {
+          offcanvas.classList.remove("active");
+        }
       });
     </script>
   </body>
