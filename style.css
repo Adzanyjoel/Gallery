@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap");
+
 :root {
   --pink: #fc0fc0;
   --bg: #0a0a0a;
@@ -329,6 +331,7 @@ body {
 @media (max-width: 576px) {
   html {
     font-size: 60%;
+    font-family: "coming-soon", cursive;
   }
 
   .mynavbar .offcanvas {
