@@ -35,7 +35,7 @@ body {
 }
 
 .hero h1 {
-  font-family: "coming-soon", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: italic;
   font-size: 3rem;
   color: var(--text);
@@ -64,7 +64,7 @@ body {
 
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
-  font-family: "coming-soon", sans-serif;
+  font-family: "poppins", sans-serif;
   font-style: italic;
   font-size: 3.2rem;
   font-weight: bold;
@@ -84,7 +84,7 @@ body {
 
 .home h2 {
   color: var(--bg);
-  font-family: "coming-soon", sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 3rem;
   margin-top: 1rem;
   font-weight: bold;
@@ -92,8 +92,8 @@ body {
 
 .home p {
   font-size: 1.1rem;
-  font-family: "coming-soon", sans-serif;
-  margin-top: 10px;
+  font-family: "poppins", sans-serif;
+  margin-top: 1px;
   color: #666;
 }
 
@@ -102,15 +102,16 @@ body {
 }
 
 .home .couple h3 {
-  font-family: "coming-soon", sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 2rem;
   color: var(--bg);
 }
 
 .home .couple p {
-  font-family: "coming-soon", sans-serif;
+  font-family: "poppins", sans-serif;
   color: var(--bg);
   font-size: 1rem;
+  margin-bottom: 1px;
 }
 
 .home .couple i {
@@ -134,7 +135,7 @@ body {
 .story h2,
 .gallery h2 {
   color: var(--bg);
-  font-family: "coming-soon", sans-serif;
+  font-family: "poppins", sans-serif;
   font-size: 3rem;
   font-weight: bold;
 }
