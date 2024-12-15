@@ -7,7 +7,6 @@
 
 body {
   font-size: 1.2rem;
-  font-family: "poppins", sans-serif;
   min-height: 4000px;
 }
 
@@ -35,7 +34,7 @@ body {
 }
 
 .hero h1 {
-  font-family: "poppins", sans-serif;
+  font-family: "coming-soon", cursive;
   font-style: italic;
   font-size: 3rem;
   color: var(--text);
