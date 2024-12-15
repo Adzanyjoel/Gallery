@@ -64,7 +64,7 @@ body {
 
 .mynavbar .navbar-brand,
 .mynavbar .offcanvas-title {
-  font-family: "Poppins", sans-serif;
+  font-family: "coming-soon", cursive;
   font-style: italic;
   font-size: 3.2rem;
   font-weight: bold;
@@ -84,7 +84,7 @@ body {
 
 .home h2 {
   color: var(--bg);
-  font-family: "poppins", sans-serif;
+  font-family: "coming-soon", cursive;
   font-size: 3rem;
   margin-top: 1rem;
   font-weight: bold;
@@ -92,6 +92,7 @@ body {
 
 .home p {
   font-size: 1.1rem;
+  margin-top: 10px;
   color: #666;
 }
 
@@ -100,9 +101,10 @@ body {
 }
 
 .home .couple h3 {
-  font-family: "poppins", sans-serif;
+  font-family: "coming-soon", cursive;
   font-size: 2rem;
   color: var(--bg);
+  text-transform: uppercase;
 }
 
 .home .couple img {
@@ -121,7 +123,7 @@ body {
 .story h2,
 .gallery h2 {
   color: var(--bg);
-  font-family: "poppins", sans-serif;
+  font-family: "coming-soon", cursive;
   font-size: 3rem;
   font-weight: bold;
 }
@@ -321,7 +323,7 @@ body {
   }
 
   .mynavbar .offcanvas {
-    width: 50%;
+    width: 60%;
     height: 100vh;
   }
 
