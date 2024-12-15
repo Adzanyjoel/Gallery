@@ -8,7 +8,8 @@
 body {
   font-size: 1.2rem;
   font-family: "poppins", sans-serif;
-  min-height: 4000px;
+  background-color: #ccc;
+  /* min-height: 4000px; */
 }
 
 .hero ::before {
@@ -75,7 +76,6 @@ body {
 }
 
 .home {
-  background-color: var(--text);
   min-height: 100vh;
   margin-top: -6rem;
   padding-top: 8rem;
@@ -86,15 +86,15 @@ body {
   color: var(--bg);
   font-family: "poppins", sans-serif;
   font-size: 3rem;
-  margin-top: 1rem;
+  margin-top: 5rem;
   font-weight: bold;
 }
 
 .home p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-family: "poppins", sans-serif;
   margin-top: 1px;
-  color: #666;
+  color: var(--bg);
 }
 
 .home .couple {
@@ -110,21 +110,23 @@ body {
 .home .couple p {
   font-family: "poppins", sans-serif;
   color: var(--bg);
-  font-size: 1rem;
+  font-size: 1.3rem;
   margin-bottom: 1px;
 }
 
+.home i,
 .home .couple i {
   color: var(--pink);
-  font-size: 1.5rem;
+  font-size: 2.2rem;
 }
 
 .home .couple img {
   width: 100%;
 }
 
-.story {
-  background-color: var(--text);
+.story,
+.gallery {
+  background-color: #ccc;
   color: var(--bg);
   min-height: 100vh;
   margin-top: 7rem;
@@ -201,8 +203,8 @@ body {
   display: inline-block;
   position: absolute;
   border-top: 15px solid transparent;
-  border-left: 15px solid #ccc;
-  border-right: 0 solid #ccc;
+  border-left: 15px solid #ffff;
+  border-right: 0 solid #ffff;
   border-bottom: 15px solid transparent;
   top: 90px;
   right: -15px;
@@ -213,8 +215,8 @@ body {
   position: absolute;
   display: inline-block;
   border-top: 14px solid transparent;
-  border-left: 14px solid #ccc;
-  border-right: 0 solid #ccc;
+  border-left: 14px solid #ffff;
+  border-right: 0 solid #ffff;
   border-bottom: 15px solid transparent;
   top: 91px;
   right: -13px;
@@ -238,19 +240,33 @@ body {
 }
 
 /* footer */
-.card {
-  display: block;
-}
-
-.card-header {
+.card-header,
+.card-body,
+.card-socials,
+.card-footer {
   background-color: var(--bg);
-  color: white;
-  font-size: medium;
+  color: var(--text);
 }
 
-.card-header a {
+.card-header h1 {
+  font-size: 2rem;
   font-style: italic;
   font-weight: bold;
+}
+
+.card-socials a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.card-socials a:hover {
+  color: var(--pink);
+}
+
+.card-footer {
+  font-size: 1rem;
 }
 
 /* media query */
@@ -332,8 +348,12 @@ body {
   }
 
   .mynavbar .offcanvas {
-    width: 60%;
+    width: 50%;
     height: 100vh;
+  }
+
+  .mynavbar .offcanvas h5 {
+    font-size: 2.5rem;
   }
 
   .timeline li .timeline-image {
