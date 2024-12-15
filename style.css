@@ -8,7 +8,7 @@
 body {
   font-size: 1.2rem;
   font-family: "poppins", sans-serif;
-  /* min-height: 4000px; */
+  min-height: 4000px;
 }
 
 .hero ::before {
@@ -104,7 +104,17 @@ body {
   font-family: "coming-soon", cursive;
   font-size: 2rem;
   color: var(--bg);
-  text-transform: uppercase;
+}
+
+.home .couple p {
+  font-family: "coming-soon", cursive;
+  color: var(--bg);
+  font-size: 1rem;
+}
+
+.home .couple i {
+  color: var(--pink);
+  font-size: 1.5rem;
 }
 
 .home .couple img {
@@ -319,7 +329,6 @@ body {
 @media (max-width: 576px) {
   html {
     font-size: 60%;
-    font-family: "poppins", sans-serif;
   }
 
   .mynavbar .offcanvas {
