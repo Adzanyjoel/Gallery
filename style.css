@@ -55,7 +55,7 @@ body {
 
 .mynavbar {
   background-color: rgba(255, 255, 255, 0.3) !important;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(8px);
 }
 
 .mynavbar .offcanvas {
@@ -180,7 +180,7 @@ body {
   background-color: var(--bg);
   position: absolute;
   left: 50%;
-  bottom: 20%;
+  bottom: 51%;
   transform: translateX(-50%);
   border-radius: 50%;
   background-size: cover;
@@ -220,6 +220,19 @@ body {
   border-bottom: 15px solid transparent;
   top: 91px;
   right: -13px;
+}
+
+.timeline li.timeline-inverted .timeline-image {
+  width: 160px;
+  height: 160px;
+  background-color: var(--bg);
+  position: absolute;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  top: 5%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .timeline li.timeline-inverted .timeline-panel {
@@ -291,7 +304,7 @@ body {
   .timeline li .timeline-image {
     left: 15px;
     margin-left: 45px;
-    top: 16px;
+    top: 12px;
   }
 
   .timeline li .timeline-panel {
@@ -303,14 +316,14 @@ body {
     border-left-width: 0;
     border-right-width: 15px;
     left: -15px;
-    top: 50%;
+    top: 30%;
     right: auto;
   }
   .timeline li .timeline-panel::after {
     border-left-width: 0;
     border-right-width: 14px;
     left: -13px;
-    top: 50%;
+    top: 30%;
     right: auto;
   }
 }
@@ -339,6 +352,23 @@ body {
     width: 140px;
     height: 140px;
   }
+
+  .timeline li.timeline-inverted .timeline-image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .timeline li .timeline-panel {
+    width: 65%;
+    transform: translateX(-20px);
+  }
+
+  .timeline li .timeline-panel::before {
+    top: 61px;
+  }
+  .timeline li .timeline-panel::after {
+    top: 61px;
+  }
 }
 
 /* mobile */
@@ -361,9 +391,14 @@ body {
     height: 80px;
   }
 
+  .timeline li.timeline-inverted .timeline-image {
+    width: 80px;
+    height: 80px;
+  }
+
   .timeline li .timeline-panel {
     width: 65%;
-    transform: translateX(-20px);
+    transform: translateX(-10px);
   }
 
   .timeline li .timeline-panel::before {
