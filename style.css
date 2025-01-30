@@ -125,7 +125,9 @@ body {
 }
 
 .story,
-.gallery {
+.gallery,
+.fotoiam,
+.vidiam {
   background-color: #ccc;
   color: var(--bg);
   min-height: 100vh;
@@ -135,7 +137,9 @@ body {
 }
 
 .story h2,
-.gallery h2 {
+.gallery h2,
+.fotoiam h2,
+.vidiam {
   color: var(--bg);
   font-family: "poppins", sans-serif;
   font-size: 3rem;
@@ -250,6 +254,16 @@ body {
   border-right-width: 14px;
   left: -13px;
   right: auto;
+}
+
+.fotoiam,
+.vidiam {
+  margin-top: -8rem;
+}
+
+.vidiam .video {
+  width: 50%;
+  height: 50%;
 }
 
 /* footer */
@@ -411,5 +425,11 @@ body {
   }
   .timeline li .timeline-panel::after {
     top: 31px;
+  }
+  .vidiam {
+    margin-top: -10rem;
+  }
+  .story {
+    margin-top: -25rem;
   }
 }
