@@ -139,7 +139,7 @@ body {
 .story h2,
 .gallery h2,
 .fotoiam h2,
-.vidiam {
+.vidiam h2 {
   color: var(--bg);
   font-family: "poppins", sans-serif;
   font-size: 3rem;
