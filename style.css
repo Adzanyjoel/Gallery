@@ -426,10 +426,4 @@ body {
   .timeline li .timeline-panel::after {
     top: 31px;
   }
-  .vidiam {
-    margin-top: -10rem;
-  }
-  .story {
-    margin-top: -25rem;
-  }
 }
